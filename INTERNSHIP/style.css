@@ -1,0 +1,44 @@
+.containeralpha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    margin-left: 35%;
+    font-size: 3.5rem;
+}
+img{
+    height: 150px;
+    width: 450px;
+    margin-left: 3.1rem;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.container1 ,.container2 {
+    height: 700px;
+    background-color: rgba(165, 165, 165, 0.08);
+    width: 550px;
+    margin: 2rem 5rem;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.items{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(115, 115, 223, 0.758);
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.items .dragging{
+    opacity: .5;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(2);
+}
+#resetButton{
+    font-size: 2rem;
+    border-radius: 15px;
+    margin: 0 44rem;
+    border: none;
+    padding: .3rem;
+}
